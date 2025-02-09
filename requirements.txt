@@ -3,9 +3,9 @@ langchain==0.0.267
 chromadb==0.4.6
 pdfminer.six==20221105
 InstructorEmbedding
-sentence-transformers
+sentence-transformers==2.2.2
 faiss-cpu
-huggingface_hub
+huggingface_hub==0.25.0
 transformers
 protobuf==3.20.2; sys_platform != 'darwin'
 protobuf==3.20.2; sys_platform == 'darwin' and platform_machine != 'arm64'
